@@ -1,0 +1,31 @@
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+.month {
+  color: #555;
+  font-weight: 100;
+}
+.chartItemWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 80%;
+}
+.chartItem {
+  height: 80%;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(187, 187, 235, 0.904);
+  border-radius: 1em;
+  border: 1px solid rgba(143, 143, 179, 0.904);
+}
+
+.chartFill {
+  background: blue;
+  border-radius: 1rem;
+}

@@ -1,0 +1,23 @@
+.expense-filter {
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.select {
+  padding: 1em 2em;
+  border-radius: 1em;
+  -webkit-appearance: none;
+  width: 110px;
+}
+.select:focus {
+  outline: none;
+}
+.expenseChart {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  height: 150px;
+  border-radius: 1em;
+  background: rgb(190, 231, 245);
+}
